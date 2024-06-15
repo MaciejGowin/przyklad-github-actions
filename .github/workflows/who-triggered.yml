@@ -1,5 +1,5 @@
 name: who-triggered
-run-name: Push by ${{ github.actor }}
+run-name: Run by ${{ github.actor }}
 on: [push]
 jobs:
   show-files:
