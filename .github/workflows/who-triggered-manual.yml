@@ -1,4 +1,4 @@
-name: who-triggered
+name: Who triggered manual
 run-name: Run by ${{ github.actor }}
 on: [workflow_dispatch]
 jobs:
