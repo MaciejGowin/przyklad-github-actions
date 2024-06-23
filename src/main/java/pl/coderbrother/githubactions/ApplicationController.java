@@ -18,6 +18,6 @@ public class ApplicationController {
     @Getter
     @Builder
     private static class TestDto {
-        private String foo;
+        private final String foo;
     }
 }
