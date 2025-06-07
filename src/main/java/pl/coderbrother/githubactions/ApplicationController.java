@@ -17,7 +17,7 @@ public class ApplicationController {
 
     @Getter
     @Builder
-    private static class TestDto {
+    public static class TestDto {
         private final String foo;
     }
 }
